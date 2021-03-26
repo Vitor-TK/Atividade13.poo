@@ -3,7 +3,11 @@ public class Cliente extends Pessoa {
 	
 	private double valorDaDivida;
 	
-	public void inserirDiv(double divida) {
-		this.valorDaDivida = divida;
+	public double getValorDaDivida() {
+		return valorDaDivida;
+	}
+
+	public void setValorDaDivida(double valorDaDivida) {
+		this.valorDaDivida = valorDaDivida;
 	}
 }
