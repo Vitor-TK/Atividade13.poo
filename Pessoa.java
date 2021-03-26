@@ -14,9 +14,9 @@ public class Pessoa {
 	
 	 @Override
 	    public String toString() {
-	        return "Paciente{" +
-	                "nome ='" + nome + '\'' +
-	                ", CPF =" + cpf + '}';
+	        return "{" +
+	                "Nome = " + nome + 
+	                ", CPF = " + cpf + '}';
 	    }
 	
 }
